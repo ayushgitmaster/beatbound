@@ -1,0 +1,40 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# Database / Vector store
+*.db
+*.sqlite3
+backend/chroma_db/
+
+# Temporary files
+temp_*.pdf
+temp_*.png
+temp_*.jpg
+
+# Frontend build output
+frontend/dist/
+frontend/node_modules/
+
+# macOS
+.DS_Store
+
+# Streamlit (legacy)
+.streamlit/
+
+# Editor
+.vscode/
+.idea/
+

@@ -1,0 +1,5 @@
+# Root-level requirements (legacy placeholder)
+# The active backend dependencies are in backend/requirements.txt
+#
+# To install backend dependencies:
+#   pip install -r backend/requirements.txt

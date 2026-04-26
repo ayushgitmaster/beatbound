@@ -1,0 +1,61 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50:  "#fff1f2",
+          100: "#ffe4e6",
+          200: "#fecdd3",
+          300: "#fda4af",
+          400: "#fb7185",
+          500: "#f43f5e",
+          600: "#e11d48",
+          700: "#be123c",
+          800: "#9f1239",
+          900: "#881337",
+        },
+        danger: {
+          50:  "#fef2f2",
+          100: "#fee2e2",
+          500: "#ef4444",
+          600: "#dc2626",
+          700: "#b91c1c",
+        },
+        success: {
+          50:  "#f0fdf4",
+          500: "#22c55e",
+          600: "#16a34a",
+        },
+        warning: {
+          50:  "#fefce8",
+          500: "#eab308",
+          600: "#ca8a04",
+        },
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+      },
+      animation: {
+        "fade-in": "fadeIn 0.2s ease-out",
+        "slide-up": "slideUp 0.3s ease-out",
+        "pulse-slow": "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        slideUp: {
+          "0%": { opacity: "0", transform: "translateY(8px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+      },
+    },
+  },
+  plugins: [],
+}
